@@ -26,9 +26,9 @@ div h2, div h3 {
 /*aqui dejamos un mensaje para informar o comentar algo*/
 
 .color {
-    /* border: 5px black solid */
-}
-/*
+     /* border: 5px black solid */
+
+    /*
     los tipos de border
     - dotted
     - dashed
@@ -41,6 +41,34 @@ div h2, div h3 {
     - none
     - hidden
     - initial
-*/
-border-style: solid;
-border-color: blue
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
+#fondo {
+    background-color: rgba(255, 0, 0);
+    /* opacity: 0.3; */
+    height: 200px;
+    background: red url("Led Zeppelin IV.jpg") repeat-y center bottom /100px 100px;    
+    background-size: 100px 100px;
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text {
+    font-family:'Inconsolata', snas-serif;
+    text-align: justify; 
+    text-decoration: line-through;
+    text-shadow: 3px 5px 5px brown;
+}
